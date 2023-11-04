@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <img src="./logo.png" alt=""> -->
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()" id="grey">AC</button>
+            <button onclick="appendToDisplay('+/-')" id="grey">+/-</button>
+            <button onclick="appendToDisplay('%')" id="grey">%</button>
+            <button onclick="appendToDisplay('/')" id="color">÷</button>
+            <button onclick="appendToDisplay('7')" id="black">7</button>
+            <button onclick="appendToDisplay('8')" id="black">8</button>
+            <button onclick="appendToDisplay('9')" id="black">9</button>
+            <button onclick="appendToDisplay('*')" id="color">×</button>
+            <button onclick="appendToDisplay('4')" id="black">4</button>
+            <button onclick="appendToDisplay('5')" id="black">5</button>
+            <button onclick="appendToDisplay('6')" id="black">6</button>
+            <button onclick="appendToDisplay('-')" id="color">-</button>
+            <button onclick="appendToDisplay('1')" id="black">1</button>
+            <button onclick="appendToDisplay('2')" id="black">2</button>
+            <button onclick="appendToDisplay('3')" id="black">3</button>
+            <button onclick="appendToDisplay('+')" id="color">+</button>
+            <button onclick="appendToDisplay('0')" id="black1">0</button>
+            <button onclick="appendToDisplay('.')" id="black">.</button>
+            <button onclick="calculate()" id="color">=</button>
+        </div>
+        <hr>
+    </div>
+    <script src="script.js"></script>
+    <footer>© Krish Agrawal. All rights reserved.</footer>
+</body>
+
+</html>
